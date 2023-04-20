@@ -1,0 +1,6 @@
+C:\Users\Nithin_Ale\source\repos\CalculatorApp\MathLibrary\bin\Debug\MathLibrary.dll
+C:\Users\Nithin_Ale\source\repos\CalculatorApp\MathLibrary\bin\Debug\MathLibrary.pdb
+C:\Users\Nithin_Ale\source\repos\CalculatorApp\MathLibrary\obj\Debug\MathLibrary.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\CalculatorApp\MathLibrary\obj\Debug\MathLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\CalculatorApp\MathLibrary\obj\Debug\MathLibrary.dll
+C:\Users\Nithin_Ale\source\repos\CalculatorApp\MathLibrary\obj\Debug\MathLibrary.pdb
