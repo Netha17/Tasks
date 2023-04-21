@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    
+    <title></title>
+    <script  >
+        function myfocus(x) {
+            x.style.border = "1px solid #99A9BF";
+
+        }
+        function radioFocus(x) {
+            var ele = document.getElementsByClassName("rd");
+            for (var x = 0; x < ele.length; x++) {
+                ele[x].style.border = "1px solid #99A9BF";
+            }
+        }
+        
+        function validations() {
+            var fnre = /[a-zA-Z]{6,}/;
+            var lnre = /[a-zA-Z]{3,}/;
+            var pwre = /[a-zA-Z0-9]/;
+            var mblre = /[6-9][0-9]{9}/;
+            var emailre =/^([a-zA-Z0-9\.-]+)(@)([a-zA-Z0-9]+)([a-z/.]+)$/;
+            var fn = document.getElementById("fn");
+            var ln = document.getElementById("ln");
+            var mbl = document.getElementById("mbl");
+            var pw = document.getElementById("pw");
+            var date = document.getElementById("date");
+            var month = document.getElementById("month");
+            var year = document.getElementById("year");
+            var male = document.getElementById("male");
+            var female = document.getElementById("female");
+            var custom = document.getElementById("custom");
+            var flag = 1;
+            var msg = "";
+            var radioBtnStatus = 1;
+            if (!fnre.test(fn.value))
+            {
+                flag = 0;
+                
+                fn.style.border = "2px solid red";
+                msg = msg + "First name should be of length atleast 6 characters\n";
+
+            }
+            if (!lnre.test(ln.value)) {
+                flag = 0;
+
+                ln.style.border = "2px solid red";
+                msg = msg + "Surname should be of length atleast 3 characters\n";
+
+            }
+            if (!(mblre.test(mbl.value) || emailre.test(mbl.value))) {
+                flag = 0;
+
+                mbl.style.border = "2px solid red";
+                msg = msg + "Enter valid email or mobile number\n";
+
+            }
+            if (!pwre.test(pw.value)) {
+                flag = 0;
+
+                pw.style.border = "2px solid red";
+                msg = msg + "Password should contain atleast 6 charactes\n";
+
+            }
+            if (date.options[date.selectedIndex].value == "default") {
+                date.style.border = "2px solid red";
+                flag = 0;
+            }
+            if (month.options[month.selectedIndex].value == "default") {
+                month.style.border = "2px solid red";
+                flag = 0;
+            }
+            if (year.options[year.selectedIndex].value == "default") {
+                year.style.border = "2px solid red";
+                flag = 0;
+            }
+            if (!(male.checked == true || female.checked == true || custom.checked == true)) {
+
+                var ele = document.getElementsByClassName("rd");
+                for (var x = 0; x < ele.length; x++) {
+                    ele[x].style.border = "2px solid red";
+                }
+                flag = 0;
+
+
+            }
+        
+
+         
+            if (flag == 0) {
+                alert(msg);
+                return false;
+                
+            }
+            return true;
+           
+           
+        }
+    </script>
+    <style>
+      
+      
+        body {
+            
+            
+            padding-top: 10px;
+            background-color: #ffffff;
+        }
+      
+        input {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            border: 1px solid #99A9BF;
+        }
+        #smallContainer {
+            width: 455px;
+            margin: auto;
+            background-color: #F0F2F5;
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px #B4B8B8;
+        }
+        #dob,#rdbtn{
+            display:flex;
+            justify-content:space-evenly;
+        }
+        #userName{
+            display:flex;
+            justify-content:space-evenly;
+        }
+        select,input[type=submit]{
+            width:140px;
+            padding:8px 16px;
+            border-radius:5px;
+            
+        }
+        .rd {
+            padding: 8px 16px;
+            border: 1px solid #99A9BF;
+            border-radius: 7px;
+        }
+        .rdl{
+          padding-right:35px;
+          
+        }
+        #subBtn {
+            background-color: #00A400;
+            color:#ffffff;
+            border-radius:7px;
+            border:none;
+            padding:7px 18px;
+            cursor:pointer;
+        }
+     
+        div{
+            margin:10px;
+        }
+        input:focus{
+            outline:none;
+        }
+      #title{
+          font-weight:bolder;
+          font-family:Arial, Helvetica, sans-serif;
+          font-size:60px;
+          letter-spacing:-3px;
+          color:#0779DE;
+          
+
+      }
+      
+
+    </style>
+</head>
+<body align="center">
+    <h1 id="title">facebook</h1>
+    <div id="container">
+        <form onsubmit="return validations()" method="post" action="login.html">
+            <div id="smallContainer">
+                <div align="center"> <h2 style="margin:0px;">Create a new account</h2></div>
+                <div align="center"> It's quick and easy</div>
+                <div id="userName"> <input id="fn"  onfocus="myfocus(this)" type="text"  placeholder="First name" /><input id="ln" onfocus="myfocus(this)" type="text" placeholder="Surname" /></div>
+                <div align="center"><input id="mbl"  onfocus="myfocus(this)" type="text"   style="width:95%;" placeholder="Mobile number or email address" /></div>
+                <div align="center"><input id="pw"  onfocus="myfocus(this)" type="text"  style="width:95%;" placeholder="New Password" /></div>
+                <span>Date of birth</span>
+                <div id="dob"><select size="1" id="date" onfocus="myfocus(this)">  <option>default</option><option>1</option></select><select size="1" onfocus="myfocus(this)" id="month"> <option>default</option> <option>Jan</option></select><select size="1" id="year" onfocus="myfocus(this)"> <option>default</option><option> 2023</option></select></div>
+                Gender
+                <div id="rdbtn">
+                    <span class="rd"><label class="rdl" for="female">Female</label><input type="radio" name="gender" id="female" onfocus="radioFocus(this)"/></span>
+                    <span class="rd"> <label class="rdl" for="male">Male</label><input type="radio" name="gender" id="male" onfocus="radioFocus(this)" /></span>
+                    <span class="rd"><label class="rdl" for="custom">Custom</label><input type="radio" name="gender" id="custom" onfocus="radioFocus(this)"/></span>
+                </div>
+                <div>
+                    People who use our service may have uploaded your contact information to<br> Facebook. Learn more.
+
+                </div>
+                <div>
+                    By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy.<br> You may receive SMS notifications from us and can opt out at any time.
+                </div>
+                <div align="center"><input type="submit" id="subBtn" value="Sign up" /></div>
+                <div align="center"><a href="login.html">Already have an account? </a></div>
+
+            </div>
+        </form>
+
+    </div>
+
+   
+
+</body>
+</html>

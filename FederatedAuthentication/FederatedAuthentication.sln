@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FederatedAuthentication", "FederatedAuthentication\FederatedAuthentication.csproj", "{9F1A93A2-9920-46DC-A203-F82CD735F87A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F1A93A2-9920-46DC-A203-F82CD735F87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1A93A2-9920-46DC-A203-F82CD735F87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1A93A2-9920-46DC-A203-F82CD735F87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1A93A2-9920-46DC-A203-F82CD735F87A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64C97B1E-EA6A-4EFF-A39D-482CD7E5B45A}
+	EndGlobalSection
+EndGlobal

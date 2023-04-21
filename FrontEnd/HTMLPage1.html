@@ -1,0 +1,40 @@
+﻿<html>
+<head>
+    <script>
+  
+        function myfocus(x) {
+            if (x.id != "fn")
+            {
+                var ele = document.getElementById("fn");
+                if (ele.value == "") {
+                    ele.style.border = "1px solid red";
+                }
+                else {
+                    ele.style.border = "1px solid black";
+
+                }
+                
+            }
+            if (x.id != "ln") {
+                var ele = document.getElementById("ln");
+                if (ele.value == "") {
+                    ele.style.border = "1px solid red";
+                }
+                else {
+                    ele.style.border = "1px solid black";
+
+                }
+            }
+            
+           
+
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="fn" placeholder="Name"   />
+    <input type="text" id="ln" onfocus="myfocus(this)" placeholder="Name" />
+    <input type="text" id="pw" onfocus="myfocus(this)" placeholder="passoord" />
+
+</body>
+</html>

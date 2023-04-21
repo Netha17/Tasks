@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="practiceDataString-Web.config Connection String" description="practiceDataString Connection String used in web.config by the application to access the database." defaultValue="Data Source=EPINHYDW06EE\SQLEXPRESS01;Initial Catalog=Practice;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nithin_Ale\\source\\repos\\Crud\\Authentication\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='practiceDataString']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,15 @@
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\bin\Debug\DIusingUnity.exe.config
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\bin\Debug\DIusingUnity.exe
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\bin\Debug\DIusingUnity.pdb
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\bin\Debug\Unity.Abstractions.dll
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\bin\Debug\Unity.Container.dll
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\bin\Debug\Unity.Container.pdb
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\obj\Debug\DIusingUnity.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\obj\Debug\DIusingUnity.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\obj\Debug\DIusingUnity.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\obj\Debug\DIusingUnity.csproj.CopyComplete
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\obj\Debug\DIusingUnity.exe
+C:\Users\Nithin_Ale\source\repos\DIusingUnity\DIusingUnity\obj\Debug\DIusingUnity.pdb

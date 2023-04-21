@@ -1,0 +1,8 @@
+C:\Users\Nithin_Ale\source\repos\CustomColViaArray\CustomColViaArray\bin\Debug\CustomColViaArray.exe.config
+C:\Users\Nithin_Ale\source\repos\CustomColViaArray\CustomColViaArray\bin\Debug\CustomColViaArray.exe
+C:\Users\Nithin_Ale\source\repos\CustomColViaArray\CustomColViaArray\bin\Debug\CustomColViaArray.pdb
+C:\Users\Nithin_Ale\source\repos\CustomColViaArray\CustomColViaArray\obj\Debug\CustomColViaArray.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\CustomColViaArray\CustomColViaArray\obj\Debug\CustomColViaArray.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\CustomColViaArray\CustomColViaArray\obj\Debug\CustomColViaArray.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\CustomColViaArray\CustomColViaArray\obj\Debug\CustomColViaArray.exe
+C:\Users\Nithin_Ale\source\repos\CustomColViaArray\CustomColViaArray\obj\Debug\CustomColViaArray.pdb

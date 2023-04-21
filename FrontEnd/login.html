@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            background-color: #F0F2F5;
+            padding-top:100px;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #99A9BF;
+        }
+        table{
+            margin:auto;
+            border-radius:5px;
+            box-shadow:0px 0px 20px grey;
+        }
+        input:focus{
+            outline:none;
+        }
+        #subbtn {
+            background-color: #1877F2;
+            color:white;
+            font-size:18px;
+            font-weight:bold;
+            font-family:Arial;
+            cursor:pointer;
+            
+        }
+        a{
+            text-decoration:none;
+        }
+        #signupbtn {
+            padding: 8px 17px;
+            color:#ffffff;
+            border-radius:5px;
+            border:none;
+            background-color: #00A400;
+        }
+         a:link{
+            color:white;
+        }
+         a:hover{
+             color:blue;
+         }
+         a:visited{
+             color:white;
+         }
+        h1 {
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            letter-spacing: -3px;
+            color: #0779DE;
+            
+        }
+        
+    </style>
+    <script>
+        function validate() {
+            var pwre = /[a-zA-Z0-9]{6,}/;
+            var mblre = /[6-9][0-9]{9}/;
+            var emailre = /^([a-zA-Z0-9\.-]+)(@)([a-zA-Z0-9]+)([a-z/.]+)$/;
+            var mbl = document.getElementById("mbl");
+            var pw = document.getElementById("pw");
+            var msg = "";
+            var flag = 1;
+            if (!(mblre.test(mbl.value) || emailre.test(mbl.value))) {
+                msg += "Your emailid or mbl are invalid\n";
+                flag = 0;
+            }
+            if (!pwre.test(pw.value)) {
+                msg += "Your password is invalid";
+                flag = 0;
+            }
+            if (flag == 0) {
+                alert(msg);
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body align="center">
+    <h1>facebook</h1>
+    <form onsubmit="return validate()" action="Homepage.html" method="post">
+        <table width="400px" bgcolor="#ffffff" cellspacing="5">
+
+            <tr align="center">
+                <td>Log in to Facebook</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="mbl" placeholder="Email address or phone number" /></td>
+
+            </tr>
+            <tr>
+                <td><input type="password" id="pw" placeholder="Password" /></td>
+
+            </tr>
+            <tr>
+                <td> <input type="submit" id="subbtn" value="Log in" /></td>
+
+            </tr>
+            <tr>
+                <td align="center"><a href="#">Forgotten password?</a></td>
+
+            </tr>
+            <tr>
+                <td align="center"><button id="signupbtn"><a id="signuplink" href="FBRegister.html">Create new account</a></button></td>
+
+            </tr>
+        </table>
+    </form>
+
+    
+
+</body>
+</html>
