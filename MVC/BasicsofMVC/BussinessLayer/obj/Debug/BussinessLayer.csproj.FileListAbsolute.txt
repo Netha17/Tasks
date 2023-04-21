@@ -1,0 +1,9 @@
+C:\Users\Nithin_Ale\source\repos\MVC\BasicsofMVC\BussinessLayer\bin\Debug\BussinessLayer.dll
+C:\Users\Nithin_Ale\source\repos\MVC\BasicsofMVC\BussinessLayer\bin\Debug\BussinessLayer.pdb
+C:\Users\Nithin_Ale\source\repos\MVC\BasicsofMVC\BussinessLayer\bin\Debug\DAL.dll
+C:\Users\Nithin_Ale\source\repos\MVC\BasicsofMVC\BussinessLayer\bin\Debug\DAL.pdb
+C:\Users\Nithin_Ale\source\repos\MVC\BasicsofMVC\BussinessLayer\obj\Debug\BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\MVC\BasicsofMVC\BussinessLayer\obj\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\MVC\BasicsofMVC\BussinessLayer\obj\Debug\BussinessLayer.csproj.CopyComplete
+C:\Users\Nithin_Ale\source\repos\MVC\BasicsofMVC\BussinessLayer\obj\Debug\BussinessLayer.dll
+C:\Users\Nithin_Ale\source\repos\MVC\BasicsofMVC\BussinessLayer\obj\Debug\BussinessLayer.pdb

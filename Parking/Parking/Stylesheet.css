@@ -1,0 +1,154 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F6F8FA;
+}
+#nav{
+    display:flex;
+    background-color:lightblue;
+    
+
+}
+#links{
+    justify-content:flex-end;
+    
+    display:flex;
+    justify-content:flex-end;
+}
+ul{
+    display:flex;
+    margin-left:400px;
+    list-style-type:none;
+
+}
+ul li{
+    padding:10px;
+}
+ul li a{
+    text-decoration:none;
+    font-family:Arial;
+}
+#title{
+    padding:10px;
+    
+    font-family:Arial;
+    padding-top:23px;
+    text-align:center;
+    font-weight:bolder;
+    font-size:30px;
+    margin-right:20px;
+}
+
+input{
+    width:100%;
+    height:25px;
+    border-radius:5px;
+}
+#signup {
+    background-color: white;
+    
+    width: 400px;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #B4B8B8;
+    margin-bottom:50px;
+}
+#signup div{
+    padding:15px;
+}
+#signup div input{
+    outline:none;
+    border:none;
+}
+#signup div input:hover{
+    border:0.5px solid grey;
+}
+#login {
+    background-color: white;
+    width: 400px;
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #B4B8B8;
+    margin-bottom:185px;
+}
+#login tr td input{
+    border:none;
+
+}
+#login tr{
+    width:100%;
+}
+#title{
+    color:green;
+}
+#dashboard {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px #B4B8B8;
+    background-color:white;
+    width: 330px;
+    align-content: center;
+}
+#bp{
+    border-radius:5px;
+text-align:center;
+width:100%;
+height:50px;
+font-family:Arial;
+font-weight:bold;
+font-size:40px;
+background-color:yellow;
+margin-bottom:20px;
+padding:5px;
+}
+#bookFields table tr td input,select{
+    margin:10px;
+    width:140%;
+    border:none;
+    padding:5px;
+    
+}
+
+#bookFields table tr td input:hover ,select:focus
+{
+    outline:0.5px solid grey;
+}
+#bookFields table tr td input[type=submit]:hover{
+    background-color:blue;
+    color:white;
+    cursor:pointer;
+}
+footer{
+    background-color:aquamarine;
+}
+footer div{
+    text-align:center;
+    font-size:15px;
+    padding:10px;
+}
+#search{
+    margin-bottom:320px;
+}
+#con-form{
+    margin:10px;
+}
+#contact{
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:130px;
+}
+#con-info{
+    margin-top:15px;
+ 
+}
+#help{
+    width:400px;
+    margin:auto;
+}

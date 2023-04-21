@@ -1,0 +1,10 @@
+﻿@model ViewPractice.Models.Emp
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<h1>Dropdown list</h1>
+@Html.DropDownList("country", (IEnumerable
+        <SelectListItem>)ViewBag.countries,"select country"));

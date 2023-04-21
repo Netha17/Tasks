@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityDI", "UnityDI\UnityDI.csproj", "{AC93EE62-8070-4882-A7D2-D64A3BEB58AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC93EE62-8070-4882-A7D2-D64A3BEB58AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC93EE62-8070-4882-A7D2-D64A3BEB58AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC93EE62-8070-4882-A7D2-D64A3BEB58AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC93EE62-8070-4882-A7D2-D64A3BEB58AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {278DFE3F-D8F8-4D6E-9B54-2B5F2EFC65BF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+C:\Users\Nithin_Ale\source\repos\sample\FileProject\bin\Debug\FileProject.exe.config
+C:\Users\Nithin_Ale\source\repos\sample\FileProject\bin\Debug\FileProject.exe
+C:\Users\Nithin_Ale\source\repos\sample\FileProject\bin\Debug\FileProject.pdb
+C:\Users\Nithin_Ale\source\repos\sample\FileProject\obj\Debug\FileProject.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\sample\FileProject\obj\Debug\FileProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\sample\FileProject\obj\Debug\FileProject.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\sample\FileProject\obj\Debug\FileProject.exe
+C:\Users\Nithin_Ale\source\repos\sample\FileProject\obj\Debug\FileProject.pdb

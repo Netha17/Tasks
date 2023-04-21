@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnGetCountries").click(function () {
+                
+                $.get("api/values", function (data) {
+                    
+                    var countries = $("#ulCountries");
+                    
+                    $.each(data, function (index, value) {
+                        var s = "<li>"+value.id+" "+value.Name+"</li>";
+                        countries.append(s);
+                    })
+
+                    
+                } )
+            })
+            
+
+            $("#btnClear").click(function () {
+                alert("button clicked");
+                var countries = $("#ulCountries");
+                countries.empty();
+
+            })
+        })
+    </script>
+</head>
+<body>
+    <div>
+        <input id="btnGetCountries" type="button" value="Get Countries" />
+        <input id="btnClear" type="button" value="Clear" />
+        <ul id="ulCountries" />
+    </div>
+</body>
+</html>

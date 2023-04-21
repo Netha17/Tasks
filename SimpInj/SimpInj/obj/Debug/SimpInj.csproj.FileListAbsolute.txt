@@ -1,0 +1,11 @@
+C:\Users\Nithin_Ale\source\repos\SimpInj\SimpInj\bin\Debug\SimpInj.exe.config
+C:\Users\Nithin_Ale\source\repos\SimpInj\SimpInj\bin\Debug\SimpInj.exe
+C:\Users\Nithin_Ale\source\repos\SimpInj\SimpInj\bin\Debug\SimpInj.pdb
+C:\Users\Nithin_Ale\source\repos\SimpInj\SimpInj\bin\Debug\SimpleInjector.dll
+C:\Users\Nithin_Ale\source\repos\SimpInj\SimpInj\bin\Debug\SimpleInjector.xml
+C:\Users\Nithin_Ale\source\repos\SimpInj\SimpInj\obj\Debug\SimpInj.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\SimpInj\SimpInj\obj\Debug\SimpInj.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\SimpInj\SimpInj\obj\Debug\SimpInj.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\SimpInj\SimpInj\obj\Debug\SimpInj.csproj.CopyComplete
+C:\Users\Nithin_Ale\source\repos\SimpInj\SimpInj\obj\Debug\SimpInj.exe
+C:\Users\Nithin_Ale\source\repos\SimpInj\SimpInj\obj\Debug\SimpInj.pdb

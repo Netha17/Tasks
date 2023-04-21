@@ -1,0 +1,31 @@
+﻿*{
+    color:white;
+}
+#btnSubmit{
+    margin-left:-12px;
+    margin-top:20px;
+    margin-bottom:5px;
+}
+
+.formRegister{
+    
+    background-color:black;
+    min-height:20vh;
+    
+    margin-top:80px;
+}
+.row-item{
+    padding-left:15px;
+
+}
+
+.title h2{
+    font-family:Algerian Arial;
+}
+#btnSubmit{
+    margin-bottom:10px;
+}
+.edit-icon{
+    height:30px;
+    width:30px;
+}

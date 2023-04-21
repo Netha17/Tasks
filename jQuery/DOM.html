@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <style>
+        .divClass{
+            color:green;
+            background-color:pink;
+        }
+        .divClass2{
+            color:black;
+            background-color:blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <button id="ac">AddClass</button>
+    <button id="rc">RemoveClass</button>
+    <button id="tc">Toggle class</button>
+    <div>
+        <p>This is the paragraph tag in division tag</p>
+    </div>
+</body>
+<script>
+    $("#ac").click(function () {
+        
+        $("p").addClass("divClass");
+    });
+    $("#rc").click(function () {
+        
+        $("p").removeClass("divClass");
+    });
+    $("#tc").click(function () {
+
+        $("p").toggleClass("divClass");
+    });
+    
+</script>
+</html>

@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+<link href="~/Styles/Layout.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="main-container ">
+        
+            <div class="container ">
+                <div class="row header" >
+                    <div class="navbar navbar-inverse navbar-fixed-top navsection" style="background-color: #1C0601;color:white;font-weight:bold;">
+                        <div class="navbar-header col-md-7">
+
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" title="Toggle navigation">
+                                <span class="navbar-toggler-icon">⇅</span>
+                            </button>
+               
+                            <div><img src="~/Images/logo (1).png" class="logo img-rounded"  /></div>
+
+
+                        </div>
+                        <div class="navbar-collapse collapse ">
+                            <ul class="nav navbar-nav col-md-4 col-md-offset-1" style="color:white;">
+                                <li>@Html.ActionLink("Home", "Create", "Order")</li>
+                                <li>@Html.ActionLink("About", "About", "Home")</li>
+                                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                                <li>@Html.ActionLink("Orders", "Contact", "Home")</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="~/Images/chef.png" class="img-responsive hidden-sm hidden-xs" style="margin-top:100px;height:60vh;width:40vw;"/>
+                        </div>
+                        <div class="col-md-5 col-md-offset-3">
+                            @RenderBody()
+                        </div>
+
+                    </div>
+
+
+                </div>
+        </div>
+
+    
+
+    
+    <div id="bottom" class="container">
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1 ">
+                <div class="row service-type">
+                    <div class="row">
+                        <img src="~/Images/cup.jpg"  align="right" class="service-type-logo img-circle img-responsive" height="60" width="60" />
+                    </div>
+                    <div class="row" style="color:black;">
+                        <h3 align="right" class="icon-title">Good Rest</h3>
+                        <p align="right" style="color:black;" class="icon-content">Lorem Ipsum dolor sit amet,consectuetur adipiscing elit,sed do usnod temper incidudant labore et dolore elit,sed do usnod temper incidudant labore et dolore</p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <img src="~/Images/24hrs.jpg" align="right"  height="60" width="60" class="service-type-logo img-circle img-responsive" />
+                    </div>
+                    <div class="row">
+                        <h3 align="right" class="icon-title" style="color:black;">24/7</h3>
+                        <p align="right" style="color:black;" class="icon-content">Lorem Ipsum dolor sit amet,consectuetur adipiscing elit,sed do usnod temper incidudant labore et dolore elit,sed do usnod temper incidudant labore et dolore</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3 col-md-offset-1 middle-footer">
+                <div  >
+                    <br />
+                    <div align="center" style="font-family:'Blackadder ITC';font-size:22px;color:red;margin-bottom:0px;">Best one</div>
+                    <h3 align="center" style="margin-top:-7px;">Our Services</h3>
+                    <div align="center"><hr width="50" /></div>
+                    <p align="justify" style="padding:5px;">
+                        It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                    </p>
+                    <br />
+                    <br />
+                    
+                </div>
+            </div>
+            <div class="col-md-2 col-md-offset-1">
+                <div class="row">
+                    <div class="row">
+                        <img src="~/Images/icon3.jpg" class="service-type-logo-2 img-circle img-responsive" height="60" width="60" />
+                        
+                    </div>
+                    <div class="row">
+                        <h3 style="color:black;" id="icon-title-2">Special Event Catering</h3>
+                        <p style="color:black;" class="icon-content-2">Lorem Ipsum dolor sit amet,consectuetur adipiscing elit,sed do usnod temper incidudant labore et dolore magna aliqua</p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="row">
+                        
+                        <img src="~/Images/bestCuisin.jpg" height="60" width="60" class="service-type-logo-2 img-circle img-responsive" />
+                    </div>
+                    <div class="row">
+                        <h3 style="color:black;" id="icon-title-3">Best Cuisin</h3>
+                        <p style="color:black;" class="icon-content-2">Lorem Ipsum dolor sit amet,consectuetur adipiscing elit,sed do usnod temper incidudant labore et dolore magna aliqua</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+ 
+
+
+    </div>
+
+ 
+
+
+    
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,7 @@
+﻿Hi Nithin, please complete this Task - Write a sample programs for 
+GenericList(Add, Sort, Remove, Insert), 
+ArrayList(Add, Count, Contains, RemoveAt), 
+LinkedList(AddFirst, AddLast, AddAfter, AddBefore, RemoveFirst, RemoveLast), 
+Queue(count, peek, Enqueue, Dequeue), 
+Hashtable(Add, ContainksKey, ContainsValue)
+Stack(Push, Pop) using the mentioned methods in C#.

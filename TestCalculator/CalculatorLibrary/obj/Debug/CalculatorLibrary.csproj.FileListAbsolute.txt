@@ -1,0 +1,6 @@
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorLibrary\bin\Debug\CalculatorLibrary.dll
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorLibrary\bin\Debug\CalculatorLibrary.pdb
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorLibrary\obj\Debug\CalculatorLibrary.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorLibrary\obj\Debug\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorLibrary\obj\Debug\CalculatorLibrary.dll
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorLibrary\obj\Debug\CalculatorLibrary.pdb

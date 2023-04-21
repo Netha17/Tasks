@@ -1,0 +1,61 @@
+﻿@model FoodServices.Models.OrderModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<link href="~/Styles/StyleSheet2.css" rel="stylesheet" />
+<link href="~/Styles/StyleSheet1.css" rel="stylesheet" />
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+    <div id="order">
+        <div id="top">
+            <h2>Book our services</h2>
+        </div>
+        <hr />
+        <div id="bottom">
+            <form>
+                <table>
+                    <tr>
+                        <th>User Name</th>
+                        <th>Date &amp; Time</th>
+                    </tr>
+                    <tr>
+                        <td>@Html.EditorFor(m => m.Username, new { htmlAttributes = new { @class = "form-control input" } })</td>
+                        <td>@Html.EditorFor(m => m.Date, new { htmlAttributes = new { @class = "form-control input" } })</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })</td>
+                        <td>@Html.ValidationMessageFor(m => m.Date, "", new { @class = "text-danger" }) </td>
+                    </tr>
+                    <tr>
+                        <th>Phone Number</th>
+                        <th>Email</th>
+                    </tr>
+                    <tr>
+                        <td>@Html.EditorFor(m => m.Phonenumber, new { htmlAttributes = new { @class = "form-control input" } })</td>
+                        <td>@Html.EditorFor(m => m.Email, new { htmlAttributes = new { @class = "form-control input" } })</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.ValidationMessageFor(m => m.Phonenumber, "", new { @class = "text-danger" })</td>
+                        <td>@Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Order" class="btn btn-danger" /></td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+    </div>
+
+
+
+}
+
+
+
+
+

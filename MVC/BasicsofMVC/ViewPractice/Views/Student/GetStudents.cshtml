@@ -1,0 +1,31 @@
+﻿@model IEnumerable< ViewPractice.Models.Student>
+
+@{
+    ViewBag.Title = "GetStudents";
+}
+
+<h2>GetStudents</h2>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.id)
+        </dt>
+
+        <dd>
+            @Html.DisplayNameFor(model => model.name)
+        </dd>
+
+    </dl>
+    <ul>
+        @foreach (var i in Model)
+        {
+            <li>@i.id</li>
+            <li>@i.name</li>
+
+        }
+    </ul>
+</div>
+

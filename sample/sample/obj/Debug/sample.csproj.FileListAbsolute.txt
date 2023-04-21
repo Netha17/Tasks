@@ -1,0 +1,15 @@
+C:\Users\Nithin_Ale\source\repos\sample\sample\bin\Debug\sample.exe.config
+C:\Users\Nithin_Ale\source\repos\sample\sample\bin\Debug\sample.exe
+C:\Users\Nithin_Ale\source\repos\sample\sample\bin\Debug\sample.pdb
+C:\Users\Nithin_Ale\source\repos\sample\sample\obj\Debug\sample.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\sample\sample\obj\Debug\sample.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\sample\sample\obj\Debug\sample.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\sample\sample\obj\Debug\sample.exe
+C:\Users\Nithin_Ale\source\repos\sample\sample\obj\Debug\sample.pdb
+C:\Users\Nithin_Ale\source\repos\sample\sample\bin\Debug\MathLibrary.dll
+C:\Users\Nithin_Ale\source\repos\sample\sample\bin\Debug\MathLibrary.pdb
+C:\Users\Nithin_Ale\source\repos\sample\sample\obj\Debug\sample.csproj.CopyComplete
+C:\Users\Nithin_Ale\source\repos\sample\sample\bin\Debug\MathLibrary.xml
+C:\Users\Nithin_Ale\source\repos\sample\sample\bin\Debug\System.dll
+C:\Users\Nithin_Ale\source\repos\sample\sample\bin\Debug\DemoLibrary.dll
+C:\Users\Nithin_Ale\source\repos\sample\sample\bin\Debug\DemoLibrary.pdb

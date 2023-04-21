@@ -1,0 +1,10 @@
+﻿body {
+    background-color: cyan;
+}
+
+p {
+    background-color: violet;
+    font-family: Arial,'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: blue;
+}

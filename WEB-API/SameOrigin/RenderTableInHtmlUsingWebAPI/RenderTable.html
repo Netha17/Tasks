@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        td{
+            background-color:gray;
+            color:white;
+        }
+        table{
+            margin:auto;
+
+        }
+        tr,td{
+            padding:5px;
+        }
+    </style>
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div>
+    <h2>Student</h2>
+    <input id="btnLoad" type="button" value="button" />
+    <table id="student" cellpadding="2" cellspacing="2" border="1" width="400px">
+        <tr>
+            <td >ID</td>
+            <td >Name</td>
+            <td >Class</td>
+            <td >Percentage Marks</td>
+            <td >Address</td>
+        </tr>
+    </table>
+    </div>
+
+</body>
+
+</html>
+<script>
+    $("#btnLoad").click(function () {
+        $.get("api/values", function (data) {
+            $.each(data, function (key, item) {
+                $('#student').append("<tr><td>" + item.ID + "</td>" + "<td>" + item.Name + "</td>" + "<td>" + item.Class + "</td>" + "<td>" + item.PercentageMarks + '%' + "</td>" + "<td>" + item.Address + "</td></tr>");
+            })
+        })
+
+    })
+
+</script>

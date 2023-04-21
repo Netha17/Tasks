@@ -1,0 +1,73 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#ddlcountry").change(function () {
+                var id = $(this).val();
+                $("#state").empty();
+                $.get("Getstates", { cid: id }, function (data) {
+                    var v = "<option>--select city</option>";
+                    $.each(data, function (index, value) {
+                        v += "<option value=" + value.Value + ">" + value.Text + "</option>";
+                    });
+                    $("#state").html(v);
+
+                });
+                
+
+
+
+            });
+        
+            $("#state").change(function () {
+                var id = $(this).val();
+                $("#city").empty();
+                $.get("GetCities", { sid: id }, function (data) {
+                    var v = "<option>--select city</option>";
+                    $.each(data, function (index, value) {
+                        v += "<option value=" + value.Value + ">" + value.Text + "</option>";
+                    });
+                    $("#city").html(v);
+
+                });
+
+            });
+
+        });
+
+
+    </script>
+
+
+</head>
+<body>
+    <div>
+        <div>
+            <b>Country: </b>
+            @Html.DropDownList("ddlcountry", (List<SelectListItem>)ViewBag.Country, "select country", new { @id = "ddlcountry" })
+        </div>
+        <div>
+            <b>State: </b>
+            <select id="state"></select><br />
+        </div>
+        <div>
+            <b>City: </b>
+            <select id="city"></select><br />
+        </div>
+    </div>
+</body>
+
+
+
+
+
+</html>

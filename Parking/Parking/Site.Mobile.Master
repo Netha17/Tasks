@@ -1,0 +1,48 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="Parking.Site_Mobile" %>
+<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <link rel="stylesheet" href="Stylesheet.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="nav">
+            <div id="title">JustPark</div>
+            <div id="links">
+                <ul>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="Connect.aspx">Contact</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="/">Company</a></li>
+                    <li><a href="Help.aspx">Help</a></li>
+                    <li><a href="Login.aspx">Login</a></li>
+                    <li><a href="Register.aspx">Sign up</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    
+        
+    
+   
+            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+        <section class="content-wrapper main-content clear-fix">
+            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </section>
+        <friendlyUrls:ViewSwitcher runat="server" />
+    </form>
+</body>
+  <footer>
+      <div>
+          &copy; Copyright 2022 All rights reserved
+
+      </div>
+  
+  </footer>
+</html>

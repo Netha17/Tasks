@@ -1,0 +1,8 @@
+C:\Users\Nithin_Ale\source\repos\ReflectionsTask\ReflectionsTask\bin\Debug\ReflectionsTask.exe.config
+C:\Users\Nithin_Ale\source\repos\ReflectionsTask\ReflectionsTask\bin\Debug\ReflectionsTask.exe
+C:\Users\Nithin_Ale\source\repos\ReflectionsTask\ReflectionsTask\bin\Debug\ReflectionsTask.pdb
+C:\Users\Nithin_Ale\source\repos\ReflectionsTask\ReflectionsTask\obj\Debug\ReflectionsTask.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\ReflectionsTask\ReflectionsTask\obj\Debug\ReflectionsTask.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\ReflectionsTask\ReflectionsTask\obj\Debug\ReflectionsTask.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\ReflectionsTask\ReflectionsTask\obj\Debug\ReflectionsTask.exe
+C:\Users\Nithin_Ale\source\repos\ReflectionsTask\ReflectionsTask\obj\Debug\ReflectionsTask.pdb

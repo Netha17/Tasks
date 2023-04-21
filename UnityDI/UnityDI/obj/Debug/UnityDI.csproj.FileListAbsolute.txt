@@ -1,0 +1,15 @@
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\bin\Debug\UnityDI.exe.config
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\bin\Debug\UnityDI.exe
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\bin\Debug\UnityDI.pdb
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\bin\Debug\Unity.Abstractions.dll
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\bin\Debug\Unity.Container.dll
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\bin\Debug\Unity.Abstractions.pdb
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\bin\Debug\Unity.Container.pdb
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\obj\Debug\UnityDI.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\obj\Debug\UnityDI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\obj\Debug\UnityDI.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\obj\Debug\UnityDI.csproj.CopyComplete
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\obj\Debug\UnityDI.exe
+C:\Users\Nithin_Ale\source\repos\UnityDI\UnityDI\obj\Debug\UnityDI.pdb

@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index of faculty</h2>
+<table>
+    <tr>
+        <td>@Html.ActionLink("Return to main index method", "Index", "Home", new { area = "" }, null) </td>
+    </tr>
+    <tr>
+        <td>@Html.ActionLink("Return to main index method", "Index", "Home", new { area = "Student" }, null) </td>
+    </tr>
+    <tr>
+        <td>@Html.ActionLink("Return to main index method", "Index", "Home", new { area = "Faculty" }, null) </td>
+    </tr>
+</table>
+

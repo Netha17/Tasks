@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASMX-Service", "ASMX-Service\ASMX-Service.csproj", "{A8EC550A-543F-4323-BCC7-BAE692E49045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebClient", "HelloWebClient\HelloWebClient.csproj", "{9B37E47E-5C1B-4D82-9158-4567DDB8832D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A8EC550A-543F-4323-BCC7-BAE692E49045} = {A8EC550A-543F-4323-BCC7-BAE692E49045}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8EC550A-543F-4323-BCC7-BAE692E49045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EC550A-543F-4323-BCC7-BAE692E49045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EC550A-543F-4323-BCC7-BAE692E49045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EC550A-543F-4323-BCC7-BAE692E49045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B37E47E-5C1B-4D82-9158-4567DDB8832D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B37E47E-5C1B-4D82-9158-4567DDB8832D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B37E47E-5C1B-4D82-9158-4567DDB8832D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B37E47E-5C1B-4D82-9158-4567DDB8832D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB533491-3A9A-4F13-A333-3005C033A0AD}
+	EndGlobalSection
+EndGlobal

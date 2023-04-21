@@ -1,0 +1,5 @@
+C:\Users\Nithin_Ale\source\repos\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\app.publish\DataEntryApp.exe
+C:\Users\Nithin_Ale\source\repos\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\app.publish\DataEntryApp.dll
+C:\Users\Nithin_Ale\source\repos\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\app.publish\DataEntryApp.deps.json
+C:\Users\Nithin_Ale\source\repos\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\app.publish\DataEntryApp.runtimeconfig.json
+C:\Users\Nithin_Ale\source\repos\WinFormsApp1\WinFormsApp1\bin\Release\net6.0-windows\app.publish\DataEntryApp.pdb

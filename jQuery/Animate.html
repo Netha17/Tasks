@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <style>
+        #cube{
+            height:50px;
+            width:50px;
+            background-color:blue;
+            opacity:0.4;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="cube"></div>
+    <button>Animate</button>
+</body>
+<script>
+    $("button").click(function () {
+        alert("hiell");
+        $("#cube").animate({ opacity:'1',height:'100px'}, 3000);
+    });
+</script>
+</html>

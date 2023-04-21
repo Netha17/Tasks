@@ -1,0 +1,8 @@
+C:\Users\Nithin_Ale\source\repos\Reflections\Reflections\bin\Debug\Reflections.exe.config
+C:\Users\Nithin_Ale\source\repos\Reflections\Reflections\bin\Debug\Reflections.exe
+C:\Users\Nithin_Ale\source\repos\Reflections\Reflections\bin\Debug\Reflections.pdb
+C:\Users\Nithin_Ale\source\repos\Reflections\Reflections\obj\Debug\Reflections.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\Reflections\Reflections\obj\Debug\Reflections.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\Reflections\Reflections\obj\Debug\Reflections.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\Reflections\Reflections\obj\Debug\Reflections.exe
+C:\Users\Nithin_Ale\source\repos\Reflections\Reflections\obj\Debug\Reflections.pdb

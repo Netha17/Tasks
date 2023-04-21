@@ -1,0 +1,11 @@
+C:\Users\Nithin_Ale\source\repos\SimpInjDI\SimpInjDI\bin\Debug\SimpInjDI.exe.config
+C:\Users\Nithin_Ale\source\repos\SimpInjDI\SimpInjDI\bin\Debug\SimpInjDI.exe
+C:\Users\Nithin_Ale\source\repos\SimpInjDI\SimpInjDI\bin\Debug\SimpInjDI.pdb
+C:\Users\Nithin_Ale\source\repos\SimpInjDI\SimpInjDI\bin\Debug\SimpleInjector.dll
+C:\Users\Nithin_Ale\source\repos\SimpInjDI\SimpInjDI\bin\Debug\SimpleInjector.xml
+C:\Users\Nithin_Ale\source\repos\SimpInjDI\SimpInjDI\obj\Debug\SimpInjDI.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\SimpInjDI\SimpInjDI\obj\Debug\SimpInjDI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\SimpInjDI\SimpInjDI\obj\Debug\SimpInjDI.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\SimpInjDI\SimpInjDI\obj\Debug\SimpInjDI.csproj.CopyComplete
+C:\Users\Nithin_Ale\source\repos\SimpInjDI\SimpInjDI\obj\Debug\SimpInjDI.exe
+C:\Users\Nithin_Ale\source\repos\SimpInjDI\SimpInjDI\obj\Debug\SimpInjDI.pdb

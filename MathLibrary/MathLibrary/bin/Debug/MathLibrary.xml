@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MathLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:MathLibrary.MathClass">
+            <summary>
+            Provides methods for arithmetic operations
+            </summary>
+        </member>
+        <member name="M:MathLibrary.MathClass.add(System.Int32,System.Int32)">
+            <summary>
+            This method is for adding two numbers
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns>Returns integer</returns>
+        </member>
+        <member name="M:MathLibrary.MathClass.subtract(System.Int32,System.Int32)">
+            <summary>
+            This method is for substraction
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MathLibrary.MathClass.multiply(System.Int32,System.Int32)">
+            <summary>
+            This method is for multiplication
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns>Return int</returns>
+            <exception cref="T:System.OverflowException"></exception>
+        </member>
+        <member name="M:MathLibrary.MathClass.Division(System.Int32,System.Int32)">
+            <summary>
+            This method is for division
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+            <exception cref="T:System.DivideByZeroException"></exception>
+        </member>
+    </members>
+</doc>

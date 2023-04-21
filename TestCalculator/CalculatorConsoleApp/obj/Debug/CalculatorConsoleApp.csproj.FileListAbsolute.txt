@@ -1,0 +1,11 @@
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe.config
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.exe
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorConsoleApp\bin\Debug\CalculatorConsoleApp.pdb
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorConsoleApp\bin\Debug\CalculatorLibrary.dll
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorConsoleApp\bin\Debug\CalculatorLibrary.pdb
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.csproj.CopyComplete
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.exe
+C:\Users\Nithin_Ale\source\repos\TestCalculator\CalculatorConsoleApp\obj\Debug\CalculatorConsoleApp.pdb

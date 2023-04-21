@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script> 
+    <style>
+        h1{
+            text-align:center;
+            border:1px solid black;
+        }
+        button{
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <button id="click">Click</button>
+    <button id="dblclick">Double Click</button>
+    <button id="me">Mouse Enter</button>
+    <button id="ml">Mouse Leave</button>
+    <button id="hover"> Hover</button>
+    <button id="gettext">Get Text</button>
+</body>
+
+<script >
+    $("#click").click(function () {
+        alert("button clicked");
+        $("h1").fadeToggle();
+    });
+    $("#dblclick").dblclick(function () {
+        alert("button double clicked");
+        $("h1").fadeToggle();
+
+    });
+    $("#me").mouseenter(function () {
+        $("h1").hide();
+    });
+    $("#ml").mouseleave(function () {
+        $("h1").show();
+        function mouseLeave() {
+            $("h1").show();
+        }
+        function mouseEnter() {
+            $("h1").hide();
+        }
+        $("#hover").hover(mouseEnter, mouseLeave);
+});
+
+$("#gettext").click(function (){
+
+
+   //to override the content $("h1").text("My world");
+    // to get content
+    var str=$("h1").text();
+
+    alert(str);
+});;
+  
+</script>
+</html>
