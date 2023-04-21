@@ -1,0 +1,8 @@
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Prototype\bin\Debug\Prototype.exe.config
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Prototype\bin\Debug\Prototype.exe
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Prototype\bin\Debug\Prototype.pdb
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Prototype\obj\Debug\Prototype.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Prototype\obj\Debug\Prototype.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Prototype\obj\Debug\Prototype.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Prototype\obj\Debug\Prototype.exe
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Prototype\obj\Debug\Prototype.pdb

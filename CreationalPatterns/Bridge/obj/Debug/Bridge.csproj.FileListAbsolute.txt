@@ -1,0 +1,8 @@
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Bridge\obj\Debug\Bridge.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Bridge\obj\Debug\Bridge.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Bridge\obj\Debug\Bridge.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Bridge\bin\Debug\Bridge.exe.config
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Bridge\bin\Debug\Bridge.exe
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Bridge\bin\Debug\Bridge.pdb
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Bridge\obj\Debug\Bridge.exe
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\Bridge\obj\Debug\Bridge.pdb

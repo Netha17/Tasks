@@ -1,0 +1,8 @@
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\StratergyPattern\bin\Debug\StratergyPattern.exe.config
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\StratergyPattern\bin\Debug\StratergyPattern.exe
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\StratergyPattern\bin\Debug\StratergyPattern.pdb
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\StratergyPattern\obj\Debug\StratergyPattern.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\StratergyPattern\obj\Debug\StratergyPattern.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\StratergyPattern\obj\Debug\StratergyPattern.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\StratergyPattern\obj\Debug\StratergyPattern.exe
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\StratergyPattern\obj\Debug\StratergyPattern.pdb

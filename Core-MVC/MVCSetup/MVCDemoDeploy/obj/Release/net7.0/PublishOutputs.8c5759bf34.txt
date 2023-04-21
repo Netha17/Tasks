@@ -1,0 +1,7 @@
+C:\Users\Nithin_Ale\source\repos\Core-MVC\MVCSetup\MVCDemoDeploy\obj\Release\net7.0\PubTmp\Out\MVCDemoDeploy.exe
+C:\Users\Nithin_Ale\source\repos\Core-MVC\MVCSetup\MVCDemoDeploy\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Nithin_Ale\source\repos\Core-MVC\MVCSetup\MVCDemoDeploy\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\Users\Nithin_Ale\source\repos\Core-MVC\MVCSetup\MVCDemoDeploy\obj\Release\net7.0\PubTmp\Out\MVCDemoDeploy.dll
+C:\Users\Nithin_Ale\source\repos\Core-MVC\MVCSetup\MVCDemoDeploy\obj\Release\net7.0\PubTmp\Out\MVCDemoDeploy.deps.json
+C:\Users\Nithin_Ale\source\repos\Core-MVC\MVCSetup\MVCDemoDeploy\obj\Release\net7.0\PubTmp\Out\MVCDemoDeploy.runtimeconfig.json
+C:\Users\Nithin_Ale\source\repos\Core-MVC\MVCSetup\MVCDemoDeploy\obj\Release\net7.0\PubTmp\Out\MVCDemoDeploy.pdb

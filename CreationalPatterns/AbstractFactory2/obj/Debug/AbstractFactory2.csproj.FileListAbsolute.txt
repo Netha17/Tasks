@@ -1,0 +1,8 @@
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\AbstractFactory2\bin\Debug\AbstractFactory2.exe.config
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\AbstractFactory2\bin\Debug\AbstractFactory2.exe
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\AbstractFactory2\bin\Debug\AbstractFactory2.pdb
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\AbstractFactory2\obj\Debug\AbstractFactory2.csproj.AssemblyReference.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\AbstractFactory2\obj\Debug\AbstractFactory2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\AbstractFactory2\obj\Debug\AbstractFactory2.csproj.CoreCompileInputs.cache
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\AbstractFactory2\obj\Debug\AbstractFactory2.exe
+C:\Users\Nithin_Ale\source\repos\CreationalPatterns\AbstractFactory2\obj\Debug\AbstractFactory2.pdb
